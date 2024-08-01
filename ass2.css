@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.big-container{
+    max-width: 100%;
+    line-height: 2.5;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.side-photo{
+    margin-bottom: 10px;
+}
+img{
+    border-radius: 5%;
+    margin-bottom: 14px;
+}
+p{
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(121, 116, 116);
+    margin: 10px auto ;
+}
+h1{
+    margin: 8px auto;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+.upper{
+    display: none;
+}
+
+/* -----------side bar------------------------- */
+
+.side-bar{
+    padding: 10px;
+    position: fixed;
+    width: 270px;
+    background-color: transparent;
+    height: 100%;
+  
+
+}
+.fa,.fa-regular,.fa-solid{
+    margin-right: 8px;
+}
+.fa-brands{
+    padding-right: 5px;
+}
+
+.remove span{ display: none;}
+.first{
+    color: rgb(35, 104, 35);
+}
+.navigation{
+    margin: 14px 0px;
+}
+ul{
+    list-style: none;
+}
+.navigation ul li:hover{
+ background-color: rgb(180, 180, 180);
+
+}
+/* --------------header--------------- */
+.header{
+    margin-left:280px;
+    padding: 12px;
+    background-color:rgba(231, 231, 231, 0.884);
+}
+.filter{
+    margin-left: 10px;
+}
+.Portfolio{
+    font-size: 30px;
+    font-weight: 100px;
+    padding: 5px 10px;
+    line-height: 1.5px;
+    margin-bottom: 50px;
+}
+hr{
+    border: none;
+    width: 96%;
+    height: 4px;
+    background-color: rgb(196, 196, 196);
+    margin: 10px 0 10px 12px;
+    padding-top: 4px;
+}
+
+.all{
+    background-color: black;
+    color: white;
+}
+.button{
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+.button:hover{
+    background-color: rgb(175, 175, 175);
+    color: black;
+}
+/* ---------items-------- */
+.row{
+    display: flex;
+    margin: 5px auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 12px;
+}
+.col3{
+    flex-basis: 33%;
+    margin-bottom: 30px;
+  
+}
+.items{
+    min-width: 250px;
+    background-color: white;
+}
+.col3 p{
+    line-height: normal;
+    margin: 5px 10px 20px 10px;
+}
+.col3 img{
+    width: 100%;
+    border-radius: 0;
+    opacity: 1;
+    padding-bottom: 0;
+}
+.col3 img:hover{
+   opacity: 0.8;
+}
+.next{
+    margin: 4px;
+    display: block;
+    text-align: center;
+}
+.next button{
+    padding: 8px;
+    border: none;
+    background: transparent;
+    width: 50px;
+}
+#one,.next button:hover{
+background-color: black;
+color: white;
+}
+/* ---------newest ones -------------- */
+.col2{
+    flex-basis: 48%;
+}
+.col2 img{
+    width: 100%;
+    border-radius: 0;
+    margin: 50px auto;
+    padding: 80px auto;
+}
+.skills{
+    display: block;
+    width: 100%;
+    background-color: rgb(189, 186, 186);
+}
+.skills .darker{
+    padding: auto 8px;
+    background-color: rgb(153, 153, 153);
+    color: white;
+    text-align: center;
+}
+.eighty{
+    width: 80%;
+}
+.eight-five{
+    width: 85%;
+}
+.ninetyfive{
+    width: 95%;
+}
+.download{
+    background-color: rgb(153, 153, 153);;
+    color: white;
+    
+    padding: 14px 24px;
+    border: none;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.download:hover{
+    background-color: rgb(189, 186, 186);
+}
+.about-me{
+    padding-left: 12px;
+}
+#about-me{
+    font-weight: bold;
+}
+h4{
+    font-weight: normal;
+}
+.charge{
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+   opacity: 0.7;
+}
+#cha{
+    padding-left: 12px;
+}
+.charge li{
+    padding: 2px 4px;
+    text-align: center;
+    border: 1px groove rgb(190, 190, 190);
+    cursor: pointer;
+    overflow: hidden;
+}
+.list li{
+    padding-bottom: 50px;
+}
+.charge li:last-child{
+    padding: 16px 24px;
+    background-color: rgba(231, 231, 231, 0.884);
+}
+.charge:hover{
+    opacity: 1;
+}
+.charge .basic{
+padding: 16px 24px;
+}
+.color1{
+    background-color: black;
+    color: white;
+}
+.color2{
+   background-color: rgb(35, 168, 168); 
+   color: white;
+}
+.signup{
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(35, 168, 168); 
+}
+.month #dolls{
+    font-weight: bold;
+    word-spacing: 8px;
+    font-size: 24px;
+}
+.month span{
+    opacity: 0.5;
+}
+.contact{
+    background-color: grey;
+    width: 100%;
+    margin: auto 0;
+    padding-right: 8px;
+}
+.contact h4{
+    padding: 16px;
+    cursor: pointer;
+  
+}
+.address1{
+       justify-content: center;
+       height: 100px;
+       margin: auto 1px;
+}
+.address{
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+.address p{
+       font-size: 24px;
+       color: white;
+       margin: 4px auto;
+       padding: 4px 8px;
+}
+.mail{
+    background-color: rgb(107, 106, 106);
+}
+.location{
+    background-color: rgb(35, 168, 168); 
+}
+.form{
+    width: 97%;
+    margin: 8px;
+    padding: 4px;
+}
+.form .label{   
+    line-height: 34px;
+    margin-left: 8px !important;
+}
+
+.form input{
+    width: 100%;
+    height: 24px;
+    padding: 4px;
+}
+.message{
+    width: 200px;
+    background-color: black;
+    margin: 8px;
+}
+#hr{
+    height: 0.5px;
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 0.6px;
+    width: 95%;
+}
+.footer{
+    background-color: rgb(107, 106, 106);
+    margin-top: 24px;
+    margin-bottom: 0;
+    padding-right: 8px;
+}
+.footer h1{
+    color: white;
+}
+.footer p{
+    color: white;
+    line-height: 3em;
+}
+.footer a{
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.float{
+ display: block;  
+ height: 100%; 
+ margin-right: 3px;
+}
+.float img{
+    width: 50px;
+    padding: 8px;
+    float: left;
+    margin: 12px auto;
+}
+.float li{
+    padding: 8px auto;
+    width: 100%;
+    line-height: 3;
+}
+.float li span{
+    color: white;
+    text-align: right;
+}
+.float li:hover{
+    background-color: rgba(231, 231, 231, 0.884);
+}
+.float li:first-child{
+    border-bottom: 1px groove grey;
+    padding: 12px auto;
+}
+.footer p span{
+    background-color: rgb(197, 196, 196);
+    color: rgb(51, 51, 51);
+    padding: 4px;
+    margin-bottom: 8px;
+}
+#travel{
+    background-color: black;
+    color: white;
+}
+.foot{
+    text-align: center;
+    background-color: black;
+    padding: 6px;
+    width: 100%;
+}
+.foot p{
+    color: white;
+}
+.foot a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+/* -------------media query max witdh 800px------------ */
+
+@media only screen and (max-width :950px){
+    *{
+        padding: 0;
+        margin-top: 0;
+    }
+    body{
+        margin-right: 8px;
+        line-height: 24px;
+    }
+    .side-bar{
+        display: block;
+        width: 320px;
+        padding-top: 20px;
+        margin: 0;
+        opacity: 1;
+        transition: 0.5s;
+        animation: reverse; 
+    }
+
+    .contact{
+        padding-left: 4px;
+    }
+    .header{
+        margin-left: 8px;
+        padding: 0;
+    }
+    .remove span{
+        display: inline-block;
+        font-size: 60px;
+        position: relative;
+        left: 45px;
+        bottom: 45px;
+        padding: 3px;
+    }
+
+    .row{
+        align-items: center;
+        text-align: center;
+    }
+    .col3,.col2{
+        flex-basis: 100%;
+    }
+    .col3 img:hover,.charge{
+        opacity: 0.7;
+    }
+    .month span{
+        opacity: 1;
+        color: rgba(0, 0, 0, 0.411);
+    }
+    .upper{
+        display:flex;
+        justify-content: space-between;
+        bottom: 12px;
+    }
+   
+    .upper img:hover{
+        opacity: 1;
+        background-color: rgba(128, 128, 128, 0.418);
+        
+    }
+    .upper #sidelogo{
+        border-radius: 50%;
+    }
+    .address1{
+        padding: 24px auto;
+        justify-content: center;
+        margin-bottom: 24px;
+        height: 100%;
+    }
+    .col2 img{
+        margin: 0;
+        padding: 4px auto;
+    }   
+     .row{
+        align-items: center;
+        text-align: left;
+    }
+    .float img{
+        width: 70px;
+    }
+}
+
+
+/* ---------media query for devices les than 500px--------- */
+@media only screen and (max-width :500px){
+
+
+    .info p{
+        display: none;
+    }
+
+    .footer .col3:last-child{
+        display: none;
+    }
+
+        
+    
+}
